@@ -1,0 +1,14 @@
+/* BORDER BOX FIX */
+html { box-sizing: border-box; }
+
+*, *::before, *::after { box-sizing: inherit; }
+/* END BORDER BOX FIX */
+
+
+body {
+}
+
+
+a:hover {
+  color: orange;
+}
