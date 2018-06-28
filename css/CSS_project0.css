@@ -12,3 +12,34 @@ body {
 a:hover {
   color: orange;
 }
+
+
+/* NAVBAR */
+.navbar-fnt {
+    color: #ccddff;
+}
+
+.navbar-backgrnd {
+    background-color: #001133;
+}
+
+
+
+#footer {
+  height: 3vh;
+  padding: 15px 15px 50px 15px;
+  color: #ccddff;
+  background-color: #001133;
+}
+
+#header {
+  height: 3vh;
+  padding: 15px 15px 50px 15px;
+  color: #ccddff;
+  background-color: #001133;
+}
+
+.body_text {
+  margin-top: 120px;
+  margin-left: 20px;
+}
