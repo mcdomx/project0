@@ -73,7 +73,7 @@ th {
 /* settings for mobile devices where the width is 767px or less*/
 @media (max-width: 767px) {
   #profile_img {
-    height: 200px;
+    height: 600px;
     margin-left: 0px;
     margin-right: 0px;
     float: none;
