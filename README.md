@@ -5,7 +5,7 @@ This site includes a mix of personal and professional resume items.
 
 A bootstrap navigation menu is used to navigate between pages.  In addition to the navigation menu, each page includes a header and a footer which remain static between pages.
 
-Without using Javascript of Python, the menu, header and footer are repeated in each HTML page.  Avoiding this is saved as an exercise when subsequent components are learned later in the class.
+Without using Javascript or Python, the menu, header and footer are repeated in each HTML page.  Avoiding this is saved as an exercise when subsequent components are learned later in the class.
 
 #### HTML Pages
 - index.html (This is also the "About" page)
@@ -20,6 +20,7 @@ Without using Javascript of Python, the menu, header and footer are repeated in 
 
 #### Images
 - images/email_icon.png - An email icon used to highlight the email link in the footer.
+- images/profile_photo.jpg - Profile photo used on About page.
 
 
 ## Requirements
@@ -32,10 +33,10 @@ Without using Javascript of Python, the menu, header and footer are repeated in 
   - A navbar is used on each page to allow navigation to any page from any page
 
 - [X] Includes at least one list (ordered or unordered)
-  - All pages except for the About page include unordered lists
+  - All pages, except for the About page, include unordered lists
 
 - [X] Includes at least one table
-  - A table is used to display my education on the education.html page.
+  - A table is used to display education on the education.html page.
 
 - [X] Includes at least one image.
   - Profile image on the About page (index.html)
@@ -44,6 +45,22 @@ Without using Javascript of Python, the menu, header and footer are repeated in 
   - CSS_project0.css includes all applicable CSS settings for the site
 
 - [ ] Stylesheet must use at least five different CSS properties, and at least five different types of CSS selectors.
+  - CSS properties used:
+    - color
+    - padding
+    - border
+    - vertical-align
+    - height
+    - margin
+    - float
+    - NOTE: numerous sub selectors are used for some of these items as well (e.g: margin-bottom)
+
+  - CSS selectors used:
+    - a:hover
+    - table
+    - td
+    - th
+    - MISSING ONE HERE!!!!!@
 
 
 - [X] Stylesheet must use the #id selector at least once, and the .class selector at least once.
