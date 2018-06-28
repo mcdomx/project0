@@ -5,14 +5,33 @@ html { box-sizing: border-box; }
 /* END BORDER BOX FIX */
 
 
-body {
-}
-
 
 a:hover {
   color: orange;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+td {
+  vertical-align: top;
+}
+
+th {
+  vertical-align: bottom;
+  padding-bottom: 5px;
+  background-color: grey;
+}
+
+.table_data_cells {
+  height: 100px;
+}
 
 /* NAVBAR */
 .navbar-fnt {
@@ -23,7 +42,13 @@ a:hover {
     background-color: #001133;
 }
 
+.body_text {
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-bottom: 100px;
 
+}
 
 #footer {
   height: 3vh;
@@ -39,7 +64,22 @@ a:hover {
   background-color: #001133;
 }
 
-.body_text {
-  margin-top: 120px;
-  margin-left: 20px;
+#profile_img {
+  height: 300px;
+  float: left;
+  margin: 30px;
+}
+
+/* settings for mobile devices where the width is 767px or less*/
+@media (max-width: 767px) {
+  #profile_img {
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: none;
+  }
+
+  .body_text {
+    margin-top: 200px;
+  }
 }
