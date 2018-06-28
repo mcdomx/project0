@@ -7,18 +7,18 @@ A bootstrap navigation menu is used to navigate between pages.  In addition to t
 
 Without using Javascript of Python, the menu, header and footer are repeated in each HTML page.  Avoiding this is saved as an exercise when subsequent components are learned later in the class.
 
-### HTML Pages
+#### HTML Pages
 - index.html (This is also the "About" page)
 - experience.html - A list of professional jobs
 - education.html - A list of degrees and institutions as well as special skills
 - entrepreneurial.html - Includes a list of part-time businesses I established
 - endeavors.html - A list of personal interests, certifications and interests
 
-### CSS Pages
+#### CSS Pages
 - CSS_project0.css - CSS settings used by the site
 - bootstrap.min.css - Bootstrap CSS settings
 
-### Images
+#### Images
 - email_icon.png - An email icon used to highlight the email link in the footer.
 
 
