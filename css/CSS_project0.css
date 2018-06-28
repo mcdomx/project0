@@ -42,6 +42,11 @@ th {
     background-color: #001133;
 }
 
+nav {
+  position: fixed;
+  top: 15px;
+}
+
 .body_text {
   margin-top: 150px;
   margin-left: 20px;
@@ -70,10 +75,14 @@ th {
   margin: 30px;
 }
 
+#hamburger_menu {
+
+}
+
 /* settings for mobile devices where the width is 767px or less*/
 @media (max-width: 767px) {
   #profile_img {
-    height: 600px;
+    height: 500px;
     margin-left: 0px;
     margin-right: 0px;
     float: none;
