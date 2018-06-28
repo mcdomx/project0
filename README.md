@@ -45,7 +45,7 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
 - [X] Has at least one stylesheet file.
   - CSS_project0.css includes all applicable CSS settings for the site
 
-- [ ] Stylesheet must use at least five different CSS properties, and at least five different types of CSS selectors.
+- [X] Stylesheet must use at least five different CSS properties, and at least five different types of CSS selectors.
   - CSS properties used:
     - color
     - padding
@@ -61,7 +61,7 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
     - table
     - td
     - th
-    - MISSING ONE HERE!!!!!@
+    - nav
 
 
 - [X] Stylesheet must use the #id selector at least once, and the .class selector at least once.
@@ -80,7 +80,6 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
 
 
 - [ ] Stylesheets must use at least one SCSS variable.
-
 
 - [ ] Use one example of SCSS nesting
 

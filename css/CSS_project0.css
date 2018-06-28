@@ -81,6 +81,7 @@ nav {
 
 /* settings for mobile devices where the width is 767px or less*/
 @media (max-width: 767px) {
+
   #profile_img {
     height: 500px;
     margin-left: 0px;
@@ -89,6 +90,6 @@ nav {
   }
 
   .body_text {
-    margin-top: 200px;
+    margin-top: 75px;
   }
 }
