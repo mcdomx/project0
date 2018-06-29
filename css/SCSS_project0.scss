@@ -7,24 +7,32 @@ $color-menu_background: $darkblue;
 $color-menu_font: $lightblue;
 
 /* NAVBAR */
-.navbar-fnt {
-    color: $color-menu_font;
+.nav-link {
+  color: $color-menu_font;
 }
 
-.navbar-backgrnd {
-    background-color: $color-menu_background;
-}
-
-#footer {
-  height: 3vh;
+%header_footer_size{
   padding: 15px 15px 50px 15px;
   color: $color-menu_font;
   background-color: $color-menu_background;
 }
 
+#footer {
+  @extend %header_footer_size;
+  height: 6vh;
+}
+
 #header {
+  @extend %header_footer_size;
+  font-size: 1.5em;
   height: 3vh;
-  padding: 15px 15px 50px 15px;
+}
+
+#navigation {
+  position: fixed;
+  z-index: 10;
+  top: 60px;
+  right: 0px;
   color: $color-menu_font;
   background-color: $color-menu_background;
 }

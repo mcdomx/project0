@@ -1,22 +1,28 @@
 /* NAVBAR */
-.navbar-fnt {
+.nav-link {
   color: #ccddff;
 }
 
-.navbar-backgrnd {
+#header, #footer {
+  padding: 15px 15px 50px 15px;
+  color: #ccddff;
   background-color: #001133;
 }
 
 #footer {
-  height: 3vh;
-  padding: 15px 15px 50px 15px;
-  color: #ccddff;
-  background-color: #001133;
+  height: 6vh;
 }
 
 #header {
+  font-size: 1.5em;
   height: 3vh;
-  padding: 15px 15px 50px 15px;
+}
+
+#navigation {
+  position: fixed;
+  z-index: 10;
+  top: 60px;
+  right: 0px;
   color: #ccddff;
   background-color: #001133;
 }

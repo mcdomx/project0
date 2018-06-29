@@ -8,12 +8,19 @@ A bootstrap navigation menu is used to navigate between pages.  In addition to t
 
 Without using Javascript or Python, the menu, header and footer are repeated in each HTML page.  Avoiding this is saved as an exercise when subsequent components are learned later in the class.
 
+#### Frameworks
+- In addition to HTML and CSS, the following frameworks were installed and used:
+  - SAAS - to use SCSS (SCSS_project0.scss is the source and SCSS_proect0.css is the target.)
+  - Bootstrap - installed locally as a separate CSS file.
+
 #### HTML Pages
-- index.html (This is also the "About" page)
-- experience.html - A list of professional jobs
-- education.html - A list of degrees and institutions as well as special skills
-- entrepreneurial.html - Includes a list of part-time businesses I established
-- endeavors.html - A list of personal interests, certifications and interests
+- Each page includes a tailored bootstrap grid that changes the nav menu and contents as the viewport changes width.
+
+  - index.html (This is also the "About" page)
+  - experience.html - A list of professional jobs
+  - education.html - A list of degrees and institutions as well as special skills
+  - entrepreneurial.html - Includes a list of part-time businesses I established
+  - endeavors.html - A list of personal interests, certifications and interests
 
 #### CSS/SCSS Pages
 - css/bootstrap.min.css - Bootstrap CSS settings
@@ -55,14 +62,14 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
     - height
     - margin
     - float
-    - NOTE: numerous sub selectors are used for some of these items as well (e.g: margin-bottom)
+    - NOTE: numerous sub-selectors are used for some of these items as well (e.g: margin-bottom)
 
   - CSS selectors used:
     - a:hover
     - table
     - td
     - th
-    - nav
+    - p
 
 
 - [X] Stylesheet must use the #id selector at least once, and the .class selector at least once.
@@ -80,10 +87,13 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
   - Columns are configured to be mobile-responsive using bootstrap selectors
 
 
-- [ ] Stylesheets must use at least one SCSS variable.
+- [X] Stylesheets must use at least one SCSS variable.
+  - Used two color variables for the background and text for the header, footer and nav bar.
 
 - [ ] Use one example of SCSS nesting
 
-- [ ] Use SCSS inheritance at least once
+- [X] Use SCSS inheritance at least once
+  - Used shared settings for the header and footer in an inheritable section and included them in the hedaer and footer id's.
+  -
 
-- [ ] Include a README.md with project writeup including contents of files and other relevant information
+- [X] Include a README.md with project writeup including contents of files and other relevant information

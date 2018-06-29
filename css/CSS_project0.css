@@ -7,6 +7,11 @@ html { box-sizing: border-box; }
 
 a:hover {
   color: orange;
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
 }
 
 table {
@@ -32,21 +37,13 @@ th {
   height: 100px;
 }
 
-/* NAVBAR */
-nav {
-  position: fixed;
-  top: 15px;
-}
 
 .body_text {
   margin-top: 150px;
   margin-left: 20px;
   margin-right: 50px;
   margin-bottom: 100px;
-
 }
-
-
 
 #profile_img {
   height: 300px;
