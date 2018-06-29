@@ -66,7 +66,7 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
 
 - [X] Stylesheet must use the #id selector at least once, and the .class selector at least once.
   - id - id's for #header, #footer and #profile_img are used
-  - class - a class for .bosy_text is used
+  - class - a class for .body_text is used
 
 - [X] Stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
   - @media query used to adjust presentation of profile image on index.html

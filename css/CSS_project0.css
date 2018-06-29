@@ -5,7 +5,6 @@ html { box-sizing: border-box; }
 /* END BORDER BOX FIX */
 
 
-
 a:hover {
   color: orange;
 }
@@ -34,14 +33,6 @@ th {
 }
 
 /* NAVBAR */
-.navbar-fnt {
-    color: #ccddff;
-}
-
-.navbar-backgrnd {
-    background-color: #001133;
-}
-
 nav {
   position: fixed;
   top: 15px;
@@ -55,19 +46,7 @@ nav {
 
 }
 
-#footer {
-  height: 3vh;
-  padding: 15px 15px 50px 15px;
-  color: #ccddff;
-  background-color: #001133;
-}
 
-#header {
-  height: 3vh;
-  padding: 15px 15px 50px 15px;
-  color: #ccddff;
-  background-color: #001133;
-}
 
 #profile_img {
   height: 300px;
@@ -75,9 +54,6 @@ nav {
   margin: 30px;
 }
 
-#hamburger_menu {
-
-}
 
 /* settings for mobile devices where the width is 767px or less*/
 @media (max-width: 767px) {
