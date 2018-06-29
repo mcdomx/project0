@@ -1,0 +1,30 @@
+
+
+$lightblue: #ccddff;
+$darkblue: #001133;
+
+$color-menu_background: $darkblue;
+$color-menu_font: $lightblue;
+
+/* NAVBAR */
+.navbar-fnt {
+    color: $color-menu_font;
+}
+
+.navbar-backgrnd {
+    background-color: $color-menu_background;
+}
+
+#footer {
+  height: 3vh;
+  padding: 15px 15px 50px 15px;
+  color: $color-menu_font;
+  background-color: $color-menu_background;
+}
+
+#header {
+  height: 3vh;
+  padding: 15px 15px 50px 15px;
+  color: $color-menu_font;
+  background-color: $color-menu_background;
+}
