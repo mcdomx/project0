@@ -15,9 +15,10 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
 - entrepreneurial.html - Includes a list of part-time businesses I established
 - endeavors.html - A list of personal interests, certifications and interests
 
-#### CSS Pages
-- css/CSS_project0.css - CSS settings used by the site
+#### CSS/SCSS Pages
 - css/bootstrap.min.css - Bootstrap CSS settings
+- css/CSS_project0.css - CSS settings used by the site
+- css/SCSS_project0.css/scss - Saas settings used by the site
 
 #### Images
 - images/email_icon.png - An email icon used to highlight the email link in the footer.
