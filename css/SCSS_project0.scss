@@ -29,10 +29,10 @@ $color-menu_font: $lightblue;
 }
 
 #navigation {
-  position: fixed;
-  z-index: 10;
-  top: 60px;
-  right: 0px;
+  position: fixed; //allows positioning of the menu
+  z-index: 10; //ensures that menu is on top of anything that it overlaps with
+  top: 60px; //puts the menu below the header
+  right: 0px; //aligns the menu to the right side of the screen
   color: $color-menu_font;
   background-color: $color-menu_background;
 }
