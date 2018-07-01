@@ -15,7 +15,7 @@ The viewport meta tag on each page was adjusted to allow reasonable display on m
 #### Frameworks
 - In addition to HTML and CSS, the following frameworks were installed and used:
   - SAAS - to use SCSS (SCSS_project0.scss is the source and SCSS_proect0.css is the target.)
-  - Bootstrap - installed locally as a separate CSS file.
+  - Bootstrap - referenced in header via web link to bootstrap css file.
 
 #### HTML Pages
 - Each page includes a tailored bootstrap grid that changes the nav menu and contents as the viewport changes width.
