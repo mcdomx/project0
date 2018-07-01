@@ -14,24 +14,6 @@ p {
   text-align: justify;
 }
 
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  padding: 10px;
-  border: 1px solid black;
-}
-
-td {
-  vertical-align: top;
-}
-
-th {
-  vertical-align: bottom;
-  padding-bottom: 5px;
-  background-color: grey;
-}
 
 .table_data_cells {
   height: 100px;

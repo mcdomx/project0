@@ -1,19 +1,35 @@
-/* NAVBAR */
+table th, table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+table td {
+  vertical-align: top;
+}
+table th {
+  vertical-align: bottom;
+  padding-bottom: 5px;
+  background-color: grey;
+}
+
 .nav-link {
   color: #ccddff;
 }
 
-#header, #footer {
+header, footer {
   padding: 15px 15px 50px 15px;
   color: #ccddff;
   background-color: #001133;
 }
 
-#footer {
+footer {
   height: 6vh;
 }
 
-#header {
+header {
   font-size: 1.5em;
   height: 3vh;
 }

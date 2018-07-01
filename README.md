@@ -6,7 +6,11 @@ This site includes a mix of personal and professional resume items.
 
 A bootstrap navigation menu is used to navigate between pages.  In addition to the navigation menu, each page includes a header and a footer which remain static between pages.
 
-Without using Javascript or Python, the menu, header and footer are repeated in each HTML page.  Avoiding this is saved as an exercise when subsequent components are learned later in the class.
+Without the knowledge of additional tools, the menu, header and footer are repeated in each HTML page.  I expect we will learn how to avoid this later in the class.
+
+A separate css file was used for SCSS components in order to highlight satisfied requirements.  All css could have been combined into one file but was left separate for assignment grading readability.
+
+The viewport meta tag on each page was adjusted to allow reasonable display on my retina mobile device.  I did not take measures to ensure that the site looked reasonable on all mobile devices since this was outside the scope of the assignment.
 
 #### Frameworks
 - In addition to HTML and CSS, the following frameworks were installed and used:
@@ -51,7 +55,8 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
   - Profile image on the About page (index.html)
 
 - [X] Has at least one stylesheet file.
-  - CSS_project0.css includes all applicable CSS settings for the site
+  - CSS_project0.css includes non-SCSS applicable CSS settings for the site
+  - SCSS_project0.css(SCSS) includes the SCSS configurations
 
 - [X] Stylesheet must use at least five different CSS properties, and at least five different types of CSS selectors.
   - CSS properties used:
@@ -66,15 +71,14 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
 
   - CSS selectors used:
     - a:hover
-    - table
-    - td
-    - th
+    - table (included in the SCSS css page)
+    - td (included in the SCSS css page)
+    - th (included in the SCSS css page)
     - p
 
-
 - [X] Stylesheet must use the #id selector at least once, and the .class selector at least once.
-  - id - id's for #header, #footer and #profile_img are used
-  - class - a class for .body_text is used
+  - id - id's for #profile_img and #navigation are used
+  - class - classes for .body_text, .nav-link and .table-data-cells are used
 
 - [X] Stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
   - @media query used to adjust presentation of profile image on index.html
@@ -86,14 +90,14 @@ Without using Javascript or Python, the menu, header and footer are repeated in 
   - each page uses a two column structure to include the page name in the left column and the page content in the right column.
   - Columns are configured to be mobile-responsive using bootstrap selectors
 
-
 - [X] Stylesheets must use at least one SCSS variable.
   - Used two color variables for the background and text for the header, footer and nav bar.
 
-- [ ] Use one example of SCSS nesting
+- [X] Use one example of SCSS nesting
+  - Table headers <th> and cells <td> use SCSS nesting inside of the <table> tag.
 
 - [X] Use SCSS inheritance at least once
-  - Used shared settings for the header and footer in an inheritable section and included them in the hedaer and footer id's.
-  -
+  - Used shared settings for the header and footer in an inheritable section and included them in the header and footer tags.
+  - Also used inheritance for table cell formatting.
 
 - [X] Include a README.md with project writeup including contents of files and other relevant information
