@@ -94,7 +94,7 @@ The viewport meta tag on each page was adjusted to allow reasonable display on m
   - Used two color variables for the background and text for the header, footer and nav bar.
 
 - [X] Use one example of SCSS nesting
-  - Table headers <th> and cells <td> use SCSS nesting inside of the <table> tag.
+  - Table headers \<th\> and cells <td> use SCSS nesting inside of the \<table\> tag.
 
 - [X] Use SCSS inheritance at least once
   - Used shared settings for the header and footer in an inheritable section and included them in the header and footer tags.
