@@ -30,6 +30,7 @@ The viewport meta tag on each page was adjusted to allow reasonable display on m
 - css/bootstrap.min.css - Bootstrap CSS settings
 - css/CSS_project0.css - CSS settings used by the site
 - css/SCSS_project0.css/scss - Saas settings used by the site
+- NOTE: the CSCC setting were separated from the main CSS page to isolate the functionality for easier review during grading.
 
 #### Images
 - images/email_icon.png - An email icon used to highlight the email link in the footer.
@@ -74,7 +75,7 @@ The viewport meta tag on each page was adjusted to allow reasonable display on m
     - /* , /* ::before, /* ::after (for the commented border box fix)
     - various html tags have been used as selectors
     - several classes have been used
-    - severa id's have been used
+    - several id's have been used
 
 
 - [X] Stylesheet must use the #id selector at least once, and the .class selector at least once.
