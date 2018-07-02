@@ -1,4 +1,6 @@
 /* BORDER BOX FIX */
+/* ensures box size includes padding and margin */
+/* from lynda.com CSS Essential Training 1, Chapter 4 */
 html { box-sizing: border-box; }
 
 *, *::before, *::after { box-sizing: inherit; }

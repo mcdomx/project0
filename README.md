@@ -71,10 +71,11 @@ The viewport meta tag on each page was adjusted to allow reasonable display on m
 
   - CSS selectors used:
     - a:hover
-    - table (included in the SCSS css page)
-    - td (included in the SCSS css page)
-    - th (included in the SCSS css page)
-    - p
+    - /* , /* ::before, /* ::after (for the commented border box fix)
+    - various html tags have been used as selectors
+    - several classes have been used
+    - severa id's have been used
+
 
 - [X] Stylesheet must use the #id selector at least once, and the .class selector at least once.
   - id - id's for #profile_img and #navigation are used
